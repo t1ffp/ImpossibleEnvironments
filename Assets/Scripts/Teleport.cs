@@ -6,11 +6,11 @@ public class Teleport : MonoBehaviour
 {
     //public Transform teleportTarget;
     public GameObject thePlayer;
-   
-    
 
-    private void OnTriggerEnter(Collider other)
+
+    void OnTriggerEnter(Collider other)
     {
-        thePlayer.transform.position = new Vector3(thePlayer.transform.position.x + 35, thePlayer.transform.position.y, thePlayer.transform.position.z);
+        thePlayer.transform.position = new Vector3(thePlayer.transform.position.x, thePlayer.transform.position.y, thePlayer.transform.position.z - 97);
+        Debug.Log("collision");
     }
 }
