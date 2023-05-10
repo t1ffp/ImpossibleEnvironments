@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 4e1f4610e924b4624b0b99581f5fd5fd
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Crimson Text SemiBold
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 643b415f1845b49679beb5e72eba09cd, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

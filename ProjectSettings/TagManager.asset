@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - tp1
+  - cart
+  - text
   layers:
   - Default
   - TransparentFX
