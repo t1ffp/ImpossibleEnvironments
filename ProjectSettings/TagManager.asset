@@ -7,6 +7,7 @@ TagManager:
   - tp1
   - cart
   - text
+  - tp2
   layers:
   - Default
   - TransparentFX
