@@ -12,6 +12,7 @@ TagManager:
   - ctp1
   - ctp2
   - ramen
+  - fish
   layers:
   - Default
   - TransparentFX
