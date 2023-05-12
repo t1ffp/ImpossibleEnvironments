@@ -8,6 +8,9 @@ TagManager:
   - cart
   - text
   - tp2
+  - plyr
+  - ctp1
+  - ctp2
   layers:
   - Default
   - TransparentFX

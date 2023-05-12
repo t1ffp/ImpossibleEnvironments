@@ -3,7 +3,17 @@ guid: 4ebe5a54fc9884047bf1daba3a8c5ce2
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Painted_metal_01
+    second: {fileID: 2100000, guid: dde32b53225914a4fb62d5d1d90c6fa5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_planks_bright
+    second: {fileID: 7020724104178308819, guid: 5c8869ccb30bb4b0fa73cca9dbdff461, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
