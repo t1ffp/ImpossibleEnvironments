@@ -9,6 +9,7 @@ public class InteractText : MonoBehaviour
 
     // Drag the text or image you want to appear here, in the Editor.
     public TextMeshProUGUI interactionText;
+    public TextMeshProUGUI textRam;
     public Camera playerCam;
     
     
@@ -21,6 +22,7 @@ public class InteractText : MonoBehaviour
 
         // Turns the text off if it isn't already.
         interactionText.gameObject.SetActive(false);
+        textRam.gameObject.SetActive(false);
     }
 
     void Update()
@@ -52,6 +54,15 @@ public class InteractText : MonoBehaviour
 
                 // Turns the prompt back off when you're not looking at the object.
                 interactionText.gameObject.SetActive(false);
+            }
+
+            if (hit.collider.tag == "ramen")
+            {
+                textRam.gameObject.SetActive(true);
+            }
+            else
+            {
+                textRam.gameObject.SetActive(false);
             }
         }
     }

@@ -11,6 +11,7 @@ TagManager:
   - plyr
   - ctp1
   - ctp2
+  - ramen
   layers:
   - Default
   - TransparentFX

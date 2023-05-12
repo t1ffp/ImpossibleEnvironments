@@ -7,6 +7,8 @@ public class ChangeControl : MonoBehaviour
     public GameObject cart;
     public GameObject cartCam;
     public GameObject player;
+    public GameObject cartTp1;
+    public GameObject cartTp2;
     bool grantAccess= false;
 
     // Start is called before the first frame update
@@ -30,12 +32,16 @@ public class ChangeControl : MonoBehaviour
             cartCam.SetActive(true);
             cart.gameObject.GetComponent<CartController>().enabled = true;
             player.transform.position = cart.transform.position;
+            cartTp1.gameObject.SetActive(true);
+            cartTp2.gameObject.SetActive(true);
         }
         else
         {
             cart.gameObject.GetComponent<CartController>().enabled = false;
             player.gameObject.SetActive(true);
             cartCam.gameObject.SetActive(false);
+            cartTp1.gameObject.SetActive(false);
+            cartTp2.gameObject.SetActive(false);
         }
     }           
 }
